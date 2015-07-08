@@ -88,6 +88,7 @@ class SocketCliente extends JFrame implements ActionListener
 		frame.addWindowListener(l);        
 		frame.pack();        
 		frame.setVisible(true);
-		frame.listenSocket();  
+		frame.listenSocket();
+		frame.setLocation(125, 125);
 	}
 }
